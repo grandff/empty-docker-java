@@ -4,8 +4,9 @@
 
 ```bash
 # build
-docker build -t ubuntu-jdk-20 .
+docker build -t ubuntu-jdk-17 .
 
 # run
-docker run -td --name sample-container ubuntu-jdk-20 
+# sample-container : 컨테이너이름. 원하는 이름으로 변경하기.
+docker run -td --name sample-container ubuntu-jdk-17 
 ```
